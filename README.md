@@ -20,5 +20,7 @@ my easy way of using it:
    NSRange range = [self.textView.text rangeOfString:activeSubstring];
    
    [self.textView addTapActionWithRange:range withActionBlock:^{
+   
         // anything you want to do - show something
+        
     }];
