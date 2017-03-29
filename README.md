@@ -6,6 +6,7 @@ if you want to have acitve substring of your UITextView you can use my code or a
 It would be nice to hear/see 'Thank you', if it is helpful for you :)
 
 
+Any bug or suggestion to improvemt? then write me or fork youserlf :)
 
 
 
