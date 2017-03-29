@@ -54,7 +54,8 @@
     self.multipleTouchEnabled = NO;
     // remove top padding of it (important - characterIndexForPoint's not working without it)
     self.textContainerInset = UIEdgeInsetsZero;
-    
+    self.textContainer.lineFragmentPadding = 0;
+
     self.panRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:nil];
     self.panRecognizer.cancelsTouchesInView = NO;
     self.panRecognizer.delegate = self;
